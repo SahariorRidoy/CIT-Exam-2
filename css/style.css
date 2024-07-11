@@ -379,9 +379,9 @@ a {
   top: 64px;
 }
 
-.love_bottom{
-    margin: 0 auto;
-    text-align: center;
+.love_bottom {
+  margin: 0 auto;
+  text-align: center;
 }
 
 .bottom_title {
@@ -398,39 +398,541 @@ a {
   margin-bottom: 16px;
 }
 .love_bottom h4 {
-    color: var(--Black, #161722);
-text-align: center;
+  color: var(--Black, #161722);
+  text-align: center;
 
-/* Heading h4 */
-font-family: "Roboto Condensed";
-font-size: 32px;
-font-style: normal;
-font-weight: 700;
-line-height: 44px; /* 137.5% */
-letter-spacing: -0.32px;
-text-transform: uppercase;
-margin-bottom: 16px;
-  }
-  .love_bottom p {
-    color: var(--Black, #161722);
-    text-align: center;
-    
-    /* Paragraph */
-    font-family: "Roboto Condensed";
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px; /* 150% */
-    margin-bottom: 16px;
+  /* Heading h4 */
+  font-family: "Roboto Condensed";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 44px; /* 137.5% */
+  letter-spacing: -0.32px;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+.love_bottom p {
+  color: var(--Black, #161722);
+  text-align: center;
 
-  }
-  .love_bottom a {
-    color: #161722;
-    font-family: Roboto;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 16px; /* 114.286% */
-  }
-
+  /* Paragraph */
+  font-family: "Roboto Condensed";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  margin-bottom: 16px;
+}
+.love_bottom a {
+  color: #161722;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; /* 114.286% */
+}
 /* Love and Compassion section style start */
+
+/* Benefits style start */
+.benefits_container {
+  width: 1500px;
+  background: var(--Grey, #f5f2f0);
+  margin: 0 auto;
+  padding: 128px 110px;
+  text-align: center;
+  margin-bottom: 128px;
+}
+.benefits_top p {
+  color: var(--Black, #161722);
+  text-align: center;
+
+  /* Label 02 */
+  font-family: "Roboto Condensed";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.benefits_top h2 {
+  color: var(--Black, #161722);
+  text-align: center;
+
+  /* Heading h2 */
+  font-family: "Roboto Condensed";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 64px; /* 133.333% */
+  letter-spacing: -0.48px;
+  text-transform: uppercase;
+  margin-bottom: 64px;
+}
+
+.benefits_bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+}
+.benefits_cards1 {
+  background-image: url(../images/nun.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 208px 32px 32px 32px;
+  height: 384px;
+  width: 302px;
+}
+.benefits_cards2 {
+  background-image: url(../images/book-cross.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 250px 32px 32px 32px;
+  height: 384px;
+  width: 302px;
+}
+.benefits_cards3 {
+  background-image: url(../images/man-people-woman-connection-6276711.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 250px 32px 32px 32px;
+  height: 384px;
+  width: 302px;
+}
+.benefits_cards4 {
+  background-image: url(../images/women-broken.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 250px 32px 32px 32px;
+  height: 384px;
+  width: 302px;
+}
+.benefits_cards1 h6,
+.benefits_cards2 h6,
+.benefits_cards3 h6,
+.benefits_cards4 h6 {
+  color: var(--White, #fff);
+
+  /* Heading h5 */
+  font-family: "Roboto Condensed";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.24px;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+.benefits_cards1 p,
+.benefits_cards2 p,
+.benefits_cards3 p,
+.benefits_cards4 p {
+  color: #fff;
+
+  /* Paragraph */
+  font-family: "Roboto Condensed";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  opacity: 0.78;
+}
+.hide {
+  display: none;
+}
+.benefits_cards1 h6:hover + .hide {
+  display: block;
+}
+.benefits_cards2 h6:hover + .hide {
+  display: block;
+}
+.benefits_cards3 h6:hover + .hide {
+  display: block;
+}
+.benefits_cards4 h6:hover + .hide {
+  display: block;
+}
+/* Benefits style end */
+
+/* join_section start*/
+.join_section {
+  width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 128px;
+}
+.join_content_top {
+  margin: 0 auto;
+  text-align: center;
+}
+.join_content_top p {
+  color: var(--Black, #161722);
+  text-align: center;
+
+  /* Label 02 */
+  font-family: "Roboto Condensed";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.join_content_top h2 {
+  color: var(--Black, #161722);
+  text-align: center;
+
+  /* Heading h2 */
+  font-family: "Roboto Condensed";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 64px; /* 133.333% */
+  letter-spacing: -0.48px;
+  text-transform: uppercase;
+  margin-bottom: 64px;
+}
+.join_content_bottom {
+  display: flex;
+}
+.jon_bottom_left {
+  background: var(--Light-orange, #fff5eb);
+  padding: 61px 90px;
+  text-align: left;
+}
+.jon_bottom_left h4 {
+  background: var(
+    --Gradient,
+    linear-gradient(110deg, #a54e2b -53.83%, #dc9853 62.61%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 16px;
+}
+.jon_bottom_left h3 {
+  color: var(--Black, #161722);
+  font-family: "Roboto Condensed";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.24px;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+  width: 210px;
+}
+.jon_bottom_left p {
+  color: var(--Black, #161722);
+  font-family: "Roboto Condensed";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  margin-bottom: 32px;
+  width: 256px;
+  opacity: 0.78;
+}
+.jon_bottom_left .h5_1 {
+  color: var(--Black, #161722);
+  font-family: "Roboto Condensed";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+.jon_bottom_left .h5_1 {
+  color: var(--Black, #161722);
+  font-family: "Roboto Condensed";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  margin-bottom: 16px;
+  margin-left: 38px;
+}
+.jon_bottom_left .h5_2 {
+  color: var(--Black, #161722);
+  font-family: "Roboto Condensed";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  margin-bottom: 32px;
+  margin-left: 38px;
+}
+.jon_bottom_left button {
+  border-radius: 12px;
+  background: var(--Black, #161722);
+  backdrop-filter: blur(40px);
+  padding: 24px 64px;
+  margin-top: 16px;
+}
+.jon_bottom_left button a {
+  color: var(--primary, #ffd2a4);
+  text-align: center;
+  font-family: "Roboto Condensed";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; /* 100% */
+  text-transform: uppercase;
+}
+.clock_icon {
+  position: relative;
+}
+.clock_icon img {
+  position: absolute;
+  top: 10px;
+}
+.search_icon {
+  position: relative;
+}
+.search_icon img {
+  position: absolute;
+  top: 10px;
+}
+/* join_section end */
+
+/* Visit Section style start */
+.visit_container {
+  width: 1500px;
+  background-image: url(../images/Background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 128px 366px;
+  margin: 0 auto;
+  margin-bottom: 128px;
+}
+
+.visit_content_bg {
+  background: var(--White, #fff);
+  backdrop-filter: blur(20px);
+  display: flex;
+  align-items: center;
+  padding: 72px 48px;
+  justify-content: space-between;
+}
+.visit_content_left h3 {
+  color: var(--Black, #161722);
+  /* Heading h2 */
+  font-family: "Roboto Condensed";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 64px; /* 133.333% */
+  letter-spacing: -0.48px;
+  text-transform: uppercase;
+  width: 368px;
+  padding: 16px;
+}
+.visit_content_left p {
+  color: var(--Black, #161722);
+
+  /* Paragraph */
+  font-family: "Roboto Condensed";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  opacity: 0.78;
+  width: 302px;
+  margin-bottom: 16px;
+}
+.visit_content_left button {
+  border-radius: 12px;
+  background: var(--primary, #ffd2a4);
+  padding: 24px 64px;
+  border: none;
+}
+.visit_content_left button a {
+  color: var(--Black, #1c1d28);
+  text-align: center;
+  font-family: "Roboto Condensed";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; /* 100% */
+  text-transform: uppercase;
+}
+.visit_foot_div {
+  background: #ffd2a4;
+  width: 768px;
+  height: 16px;
+}
+/* Visit Section style end */
+
+/* footer section style start */
+.footer_container {
+  background: var(--bl, #161722);
+  height: 312px;
+  padding: 64px 72px 110px 110px;
+}
+.footer_content {
+  display: flex;
+  justify-content: space-between;
+}
+.footer_content_left {
+  display: flex;
+  justify-content: space-between;
+
+  width: 50%;
+}
+
+.foot_left1 img {
+  margin-bottom: 16px;
+}
+
+.foot_left1 .copyright {
+  color: var(--White, #fff);
+  text-align: left;
+
+  /* Cap 02 */
+  font-family: "Roboto Condensed";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-bottom: 32px;
+}
+.foot_left1 .phone {
+  color: var(--White, #fff);
+  text-align: left;
+
+  /* Cap 02 */
+  font-family: "Roboto Condensed";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-bottom: 32px;
+  margin-bottom: 16px;
+}
+.foot_left1 .address {
+  color: var(--White, #fff);
+
+  /* Cap 02 */
+  font-family: "Roboto Condensed";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+.foot_left1 .website {
+  color: var(--White, #fff);
+
+  /* Cap 02 */
+  font-family: "Roboto Condensed";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.foot_left2 ul li {
+  color: var(--White, #fff);
+
+  /* Cap 02 */
+  font-family: "Roboto Condensed";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  opacity: 0.78;
+  margin-bottom: 20px;
+}
+.foot_left2 ul:first-child {
+  color: var(--White, #fff);
+  text-align: right;
+
+  /* Paragraph */
+  font-family: "Roboto Condensed";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+
+.foot_content_left_right {
+  display: flex;
+  justify-content: space-between;
+}
+.foot_left3 {
+  margin-left: 72px;
+}
+.foot_left3 p {
+  color: var(--White, #fff);
+
+  /* Paragraph */
+  font-family: "Roboto Condensed";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  margin-bottom: 20px;
+}
+.social_icon {
+  display: flex;
+  gap: 20px;
+}
+.footer_content_right h2 {
+  color: var(--White, #fff);
+
+  /* Heading h4 */
+  font-family: "Roboto Condensed";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 44px; /* 137.5% */
+  letter-spacing: -0.32px;
+  text-transform: uppercase;
+  width: 377px;
+  margin-bottom: 32px;
+}
+
+.footer_content_right input {
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  width: 512px;
+  height: 64px;
+}
+.footer_content_right input::placeholder {
+  padding: 20px 57px 20px 20px;
+  text-align: left;
+  /* Paragraph */
+  font-family: "Roboto Condensed";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+.footer_content_right button {
+  border-radius: 12px;
+background: var(--primary, #FFD2A4);
+padding: 24px 64px;
+margin-left: -205px;
+border: none;
+}
+.footer_content_right button a {
+  color: var(--Black, #1C1D28);
+text-align: center;
+font-family: "Roboto Condensed";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 16px; /* 100% */
+text-transform: uppercase;
+}
+/* footer section style end */
